@@ -89,7 +89,7 @@ body {
 
 .header-nav-buttons button {
   cursor: pointer;
-  border-radius: none;
+  border-radius: 0px;
   background-color: #1B1F22;
   border-style: none;
   color: #CBCECF;
@@ -97,11 +97,11 @@ body {
   font-family: 'Helvetica Neue Cyr Medium';
   letter-spacing: 0.6px;
   height: 100%;
+  transition: 0.1s;
 }
 
 .header-nav-buttons button:hover {
   border-bottom: 2px solid #FF3E41;
-  padding-top: 2px;
 }
 
 #header input {
