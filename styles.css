@@ -68,7 +68,12 @@ body {
   text-transform: uppercase;
   align-items: center;
   font-family: 'Helvetica Neue Cyr Medium';
-  padding: 0px 90px;
+  padding: 0px 80px 0px 80px;
+}
+
+#header .logo {
+  top: 2px;
+  position: relative;
 }
 
 .header-nav-buttons {
@@ -76,8 +81,10 @@ body {
   flex-direction: row;
   flex-shrink: 0;
   align-items: center;
-  gap: 50px;
-  margin: 0px 25px;
+  gap: 68px;
+  margin-right: 85px;
+  margin-left: 160px; 
+  height: 100%;
 }
 
 .header-nav-buttons button {
@@ -89,6 +96,12 @@ body {
   font-size: 12px;
   font-family: 'Helvetica Neue Cyr Medium';
   letter-spacing: 0.6px;
+  height: 100%;
+}
+
+.header-nav-buttons button:hover {
+  border-bottom: 2px solid #FF3E41;
+  padding-top: 2px;
 }
 
 #header input {
@@ -97,7 +110,7 @@ body {
   background-color: #25292B;
   color: #7F8589;
   border-style: none;
-  padding: 0px 0px 0px 15px;
+  padding: 0px 0px 0px 18px;
   font-size: 12px;
 }
 
@@ -128,7 +141,7 @@ body {
 .header-right-side {
   display: flex;
   flex-direction: row;
-  gap: 20px;
+  gap: 15px;
   width: 590px;
   justify-content: end;
 }
